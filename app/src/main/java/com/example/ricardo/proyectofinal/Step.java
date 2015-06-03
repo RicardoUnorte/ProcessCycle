@@ -19,6 +19,9 @@ public class Step {
     Field[] fields;
     Decision[] dec;
 
+    public int getId() {
+        return id;
+    }
 
     public Step(JSONObject jstep) {
         Jstep = jstep;

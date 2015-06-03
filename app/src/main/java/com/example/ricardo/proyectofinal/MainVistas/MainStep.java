@@ -24,7 +24,7 @@ import java.util.List;
  */
 public class MainStep extends AppCompatActivity implements DownF, FragmentManager.OnBackStackChangedListener {
 
-    private TextView textView;
+    private TextView textView,texts;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -66,6 +66,7 @@ public class MainStep extends AppCompatActivity implements DownF, FragmentManage
     }
 
     private void SetStep(int step_id) {
+
         StepFragment frag= new StepFragment();
         frag.SetStep(findStepById(step_id));
         getSupportFragmentManager().beginTransaction()

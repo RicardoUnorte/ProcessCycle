@@ -8,11 +8,18 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="asdas"
-        android:id="@+id/numCap" />
+        android:id="@+id/numCap"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp" />
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/numberText"
-        android:inputType="number|numberDecimal" />
+        android:inputType="number|numberDecimal"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp" />
 </LinearLayout>

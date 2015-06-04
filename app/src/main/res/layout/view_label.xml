@@ -10,5 +10,8 @@
         android:id="@+id/labelText"
         android:layout_gravity="center_horizontal"
         android:textStyle="bold"
-        android:paddingTop="20dp" />
+        android:paddingTop="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp" />
 </LinearLayout>

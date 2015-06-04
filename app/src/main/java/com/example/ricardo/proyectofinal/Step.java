@@ -37,7 +37,7 @@ public class Step {
     private void getStep() {
         try {
             String cont = Jstep.getString("content");
-            JSONObject content = new JSONObject(Html.fromHtml(cont).toString());
+            JSONObject content = new JSONObject(cont);
             JSONArray field = content.getJSONArray("Fields");
             fields = new Field[field.length()];
             for(int i=0; i < field.length();i++){
